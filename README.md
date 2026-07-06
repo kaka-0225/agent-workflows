@@ -39,6 +39,8 @@ agent-workflows/
     skill/
     memory-rules/
   paper-read-single/
+  ai-infra-code-read/
+  book-read/
 ```
 
 ## Workflow Packages
@@ -47,6 +49,14 @@ agent-workflows/
 - `paper-read-single/`: single-paper deep reading workflow. It supports paper
   mapping, section reading, method analysis, experiment extraction, claim
   auditing, and final structured notes for one paper at a time.
+- `ai-infra-code-read/`: AI infrastructure source-reading workflow. It supports
+  repository mapping, execution tracing, module reading, config tracing, tensor
+  flow, KV cache analysis, performance path analysis, kernel/backend mapping,
+  and final structured source notes.
+- `book-read/`: reflective book-reading workflow for literature, psychology,
+  relationships, philosophy, and personal-growth books. It separates literal
+  reading/translation from chapter understanding, theme analysis, quote
+  reflection, personal reflection, and reading summaries.
 
 ## Core Principle
 
